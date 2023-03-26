@@ -1,0 +1,54 @@
+﻿body {
+    font-family: 'Kanit', sans-serif !important;
+}
+#bmi-box {
+    background-color: #87B37E;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#bmi-calculator h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Kanit', sans-serif !important;
+    font-size:x-large;
+
+}
+.row{
+    margin-bottom:20px;
+}
+#bmi-result {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif !important;
+}
+#bmi-info {
+    text-align: center;
+    font-family: 'Kanit', sans-serif !important;
+    margin-top:100px;
+
+}
+    #bmi-info .row .col-md-3 {
+        padding-top: 20px ;
+    }
+        #bmi-info .row .col-md-3:nth-child(1) {
+            background-color: blue ;
+            border-bottom-left-radius: 10px ;
+            border-top-left-radius: 10px ;
+        }
+        #bmi-info .row .col-md-3:nth-child(2) {
+            background-color: forestgreen ;
+        }
+
+        #bmi-info .row .col-md-3:nth-child(3) {
+            background-color: yellow;
+        }
+        #bmi-info .row .col-md-3:nth-child(4) {
+            background-color: darkred ;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
